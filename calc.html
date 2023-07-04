@@ -9,36 +9,36 @@
 </head>
 <body>
     <div class="container">
-        <div class="text-area">
+        <div class="text-area grid-main">
             <h1 class="input"></h1>
             <!-- <input type="text" autofocus id="input"> -->
         </div>
         <hr>
-        <div class="calc-cont">
+        <div class="calc-cont grid-cont1">
             <button  class="delete signs">C</button>
             <button class="signs">()</button>
             <button class="solve signs" onclick="calculate('%')">%</button>
             <button id="solve" class="signs" onclick="calculate('/')">/</button>
         </div>
-        <div class="calc-cont">
+        <div class="calc-cont grid-cont2">
             <button class="button" onclick="calculate('7')">7</button>
             <button class="button1" onclick="calculate('8')">8</button>
             <button class="button2" onclick="calculate('9')">9</button>
             <button class="button3 signs" onclick="calculate('*')">*</button>
         </div>
-        <div class="calc-cont">
+        <div class="calc-cont grid-cont3">
             <button class="button4" onclick="calculate('4')">4</button>
             <button class="button5" onclick="calculate('5')">5</button>
             <button class="button6" onclick="calculate('6')">6</button>
             <button class="button7 signs" onclick="calculate('-')">-</button>
         </div>
-        <div class="calc-cont">
+        <div class="calc-cont grid-cont4">
             <button class="button8" onclick="calculate('1')">1</button>
             <button class="button9" onclick="calculate('2')">2</button>
             <button class="button11" onclick="calculate('3')">3</button>
             <button class="button12 signs" onclick="calculate('+')">+</button>
         </div>
-        <div class="calc-cont">
+        <div class="calc-cont grid-cont5">
             <button id="erase" onclick="remove()">D</button>
             <button class="button13" onclick="calculate('0')">0</button>
             <button class="button14" onclick="calculate('.')">.</button>
